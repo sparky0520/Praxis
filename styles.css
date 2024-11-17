@@ -245,6 +245,10 @@ section {
 
 #schedule {
   min-height: fit-content;
+  background-color: var(--text-color);
+  * {
+    color: var(--background-color);
+  }
   .milestone {
     display: flex;
     text-align: start;
@@ -266,6 +270,12 @@ section {
     display: flex;
     flex-direction: column;
     gap: 15px;
+  }
+  .schedule-text {
+    color: #555;
+  }
+  .schedule-header {
+    font-weight: 700;
   }
   @media (min-width: 1000px) {
     .milestones {
