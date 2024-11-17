@@ -223,6 +223,15 @@ section {
 
 #about {
   min-height: fit-content;
+  border-bottom: none;
+  .content {
+    margin-top: 50px;
+    text-align: justify;
+  }
+}
+
+#why-praxis {
+  min-height: fit-content;
   .point {
     display: flex;
     flex-direction: column;
@@ -280,6 +289,54 @@ section {
   @media (min-width: 1000px) {
     .milestones {
       flex-direction: row;
+    }
+  }
+}
+
+#prizes {
+  min-height: fit-content;
+  .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    #prize-pool,
+    #special-track {
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 40vh;
+      aspect-ratio: 1;
+      border: 1px solid white;
+    }
+    #prize-pool {
+      gap: 20px;
+      #trophy-img {
+        height: 130px;
+      }
+    }
+    #special-track {
+      gap: 10px;
+    }
+  }
+  @media (min-width: 690px) {
+    .content {
+      flex-direction: row;
+    }
+    #prize-pool,
+    #special-track {
+      width: 45vw;
+    }
+  }
+  @media (max-width: 355px) {
+    .count {
+      font-size: var(--heading-font-size);
+    }
+    #special-track {
+      h3 {
+        font-size: var(--button-text-font-size);
+      }
     }
   }
 }
