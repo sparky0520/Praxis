@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #002a00;
+}
+
+:root {
+  --button-opacity: 25%;
+  --primary: white;
+  --secondary: #002a00;
+}
+
+section {
+  border-bottom: 1px solid white;
+  min-height: 100vh;
+}
+
+#home {
+}
