@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praxis'24</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="home">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="assets/bg_video.webm">
+            <source src="assets/snake_gameplay.mp4">
+        </video>
+        <nav>
+            <!-- Logic for showing sidebar -->
+            <input type="checkbox" id="sidebar-active">
+            <!-- Menu Button -->
+            <div class="mobile-navbar">
+                <div id="logo" class="home-link">Praxis</div>
+                <label for="sidebar-active" class="open-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </label>
+            </div>
+            <!-- Sidebar close overlay -->
+            <label for="sidebar-active" id="overlay"></label>
+            <!-- Navbar Links Container -->
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </label>
+
+                <a href="#home" class="home-link">Praxis</a>
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#prizes">Prizes</a>
+                <a href="#faqs">FAQs</a>
+                <a href="#contact">Contact</a>
+                <!-- <a href="#">
+                    <img src="assets/gdg_gbpec.png" alt="Google Developer Groups OnCampus GB Pant DSEU Okhla-1"
+                        id="gdg_logo">
+                </a> -->
+            </div>
+        </nav>
+        <div id="content">
+            <div id="title-row">
+                <h1 id="title">Praxis'24</h1>
+                <h4>Cool hackathon and Machine Learning</h4>
+            </div>
+            <h4 id="dates">21st-24th November 2024</h4>
+            <div id="button-row">
+                <h4><a href="">Register Now</a></h4>
+                <h4>
+                    <a href="">
+                        <img src="assets/discord_logo.svg" alt="" id="discord_logo">
+                        <span>Join</span>
+                    </a>
+                </h4>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="about"></section>
+    <section id="schedule"></section>
+    <section id="prizes"></section>
+    <section id="faqs"></section>
+    <section id="contact"></section>
+</body>
+
+</html>
