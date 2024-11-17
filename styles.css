@@ -29,7 +29,7 @@ h4 {
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-
+  /* border: 1px solid red; */
   font-weight: 400;
   color: var(--text-color);
 }
@@ -52,6 +52,11 @@ section {
 
 .text {
   color: #aaa;
+}
+
+.section-title {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 #home {
@@ -230,14 +235,41 @@ section {
   .points {
     margin-top: 20px;
   }
-  #why-praxis {
-    font-weight: 600;
-    text-decoration: underline;
-  }
   @media (min-width: 1010px) {
     .points {
       display: flex;
       gap: 20px;
+    }
+  }
+}
+
+#schedule {
+  min-height: fit-content;
+  .milestone {
+    display: flex;
+    text-align: start;
+    gap: 10px;
+  }
+  .schedule-header {
+    font-weight: 600;
+  }
+  .schedule-before-img {
+    height: 30px;
+  }
+  .milestones {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .schedule-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  @media (min-width: 1000px) {
+    .milestones {
+      flex-direction: row;
     }
   }
 }
