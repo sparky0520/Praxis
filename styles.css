@@ -59,6 +59,10 @@ section {
   text-decoration: underline;
 }
 
+.praxis-logo {
+  height: 60px;
+}
+
 #home {
   padding: 0;
   min-height: 100svh;
