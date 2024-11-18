@@ -325,6 +325,9 @@ section {
       gap: 10px;
     }
   }
+  .asterisk {
+    color: #666;
+  }
   @media (min-width: 690px) {
     .content {
       flex-direction: row;
