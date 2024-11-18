@@ -306,12 +306,12 @@ section {
     flex-direction: column;
     #prize-pool,
     #special-track {
-      padding: 40px;
+      padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 40vh;
+      height: 50vh;
       aspect-ratio: 1;
       border: 1px solid white;
     }
