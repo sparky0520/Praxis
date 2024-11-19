@@ -178,17 +178,16 @@ section {
     margin: 30px 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     a {
       background: rgba(131, 131, 131, 0.25);
-      padding: 10px 20px;
+      padding: 5px 10px;
     }
     #button-row {
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 15px;
       #discord_logo {
         height: 20px;
       }
@@ -196,7 +195,7 @@ section {
     #title-row {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 15px;
       #title {
         font-weight: 700;
       }
@@ -223,6 +222,7 @@ section {
       }
     }
     @media (min-width: 676px) {
+      gap: 40px;
       #button-row {
         flex-direction: row;
       }
@@ -237,6 +237,9 @@ section {
         .sponsor-text {
           margin-bottom: 10px;
         }
+      }
+      a {
+        padding: 10px 20px;
       }
     }
     @media (max-width: 380px) {
