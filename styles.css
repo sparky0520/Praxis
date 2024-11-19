@@ -244,6 +244,11 @@ section {
         height: 30px;
       }
     }
+    @media (max-width: 575px) {
+      h4 {
+        font-size: 1.25rem;
+      }
+    }
   }
   video {
     position: absolute;
