@@ -164,7 +164,7 @@ section {
     }
   }
   #content {
-    margin: 30px 40px 0;
+    margin: 30px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,9 +196,36 @@ section {
     #gdg_logo {
       height: 50px;
     }
+    .sponsors {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .sponsor-logo {
+        height: 30px;
+      }
+      .sponsor-image {
+        display: flex;
+        gap: 20px;
+      }
+      .sponsor-text {
+        margin-bottom: 5px;
+      }
+    }
     @media (min-width: 676px) {
       #button-row {
         flex-direction: row;
+      }
+      .sponsors {
+        gap: 30px;
+        .sponsor-logo {
+          height: 50px;
+        }
+        .sponsor-image {
+          gap: 40px;
+        }
+        .sponsor-text {
+          margin-bottom: 10px;
+        }
       }
     }
     @media (max-width: 380px) {
@@ -207,7 +234,7 @@ section {
       }
     }
   }
-  .background-clip {
+  video {
     position: absolute;
     top: 0;
     left: 0;
