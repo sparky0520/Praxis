@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praxis'24</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="scroll-reveal/scroll-reveal.css">
 </head>
 
 <body>
@@ -84,7 +84,7 @@
     </section>
     <section id="about">
         <h2 class="section-title" style="color: crimson;">About</h2>
-        <div class="content">
+        <div class="content reveal-type" data-bg-color="teal" data-fg-color="white">
             Praxis'24 is a 6-day Machine Learning Hackathon organized by Google Developer Groups on Campus GB Pant DSEU
             Okhla-1, designed to inspire innovation and collaboration among students and professionals. The event kicks
             off with an exciting quiz on the first day to ignite curiosity and set the tone for the challenge ahead.
@@ -99,8 +99,10 @@
         <div class="points">
             <div class="point">
                 <img src="assets/about/lightbulb_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="point-img">
-                <div class="point-info-title">Build Innovative Solutions</div>
-                <p class="point-info-para text">One of the primary reasons for participating in a coding hackathon
+                <div class="point-info-title">Build Innovative
+                    Solutions</div>
+                <p class="point-info-para reveal-type" data-bg-color="teal" data-fg-color="#ddd">One of the primary
+                    reasons for participating in a coding hackathon
                     is the
                     opportunity to build
                     innovative solutions. By working with a team of like-minded individuals, you can brainstorm new
@@ -109,8 +111,10 @@
             </div>
             <div class="point">
                 <img src="assets/about/calculate_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="point-img">
-                <div class="point-info-title">Improve Coding Skills</div>
-                <p class="point-info-para text">Hackathons provide an excellent opportunity to improve your coding
+                <div class="point-info-title">Improve Coding
+                    Skills</div>
+                <p class="point-info-para reveal-type" data-bg-color="teal" data-fg-color="#ddd">Hackathons provide an
+                    excellent opportunity to improve your coding
                     skills. By working on challenging projects with tight deadlines, you can hone your coding and
                     problem-solving abilities, learn new programming languages, and gain experience working with
                     different tools and technologies.
@@ -119,7 +123,8 @@
             <div class="point">
                 <img src="assets/about/trophy_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="point-img">
                 <div class="point-info-title">Win Prizes</div>
-                <p class="point-info-para text">Many hackathons offer prizes to the winning teams, which can be a great
+                <p class="point-info-para reveal-type" data-bg-color="teal" data-fg-color="#ddd">Many hackathons offer
+                    prizes to the winning teams, which can be a great
                     motivator. These prizes can range from cash to tech gadgets and even job offers. If you're looking
                     to jumpstart your career in tech, winning a hackathon can be a great way to get noticed.
                 </p>
@@ -185,13 +190,18 @@
                 <img src="assets/prizes/trophy.png" alt="" id="trophy-img">
                 <div id="prize-info">
                     <div>Prizes Worth</div>
-                    <h1 class="count">₹2,00,000<span class="asterisk">*</span></h1>
+                    <h1 class="count reveal-type" data-bg-color="teal" data-fg-color="white">₹2,00,000<span
+                            class="asterisk">*</span></h1>
                     <div class="asterisk">*Inclusive of all sponsor benefits</div>
                 </div>
             </div>
             <div id="special-track">
                 Special Prize for
-                <h3>BEST FIRST YEARS TEAM</h3>
+                <h3 class="reveal-type" data-bg-color="teal" data-fg-color="white"><span
+                        style="text-wrap: nowrap;">BEST</span>
+                    <span style="text-wrap: nowrap;">FIRST</span> <span style="text-wrap: nowrap;">YEARS</span> <span
+                        style="text-wrap: nowrap;">TEAM</span>
+                </h3>
             </div>
         </div>
     </section>
@@ -310,6 +320,11 @@
         </div>
     </section>
     <script src="faq.js"></script>
+    <script src="scroll-reveal/gsap.js"></script>
+    <script src="scroll-reveal/ScrollTrigger.js"></script>
+    <script src="scroll-reveal/split-type.js"></script>
+    <script src="scroll-reveal/lenis.js"></script>
+    <script src="scroll-reveal/scroll-reveal.js"></script>
 </body>
 
 </html>
